@@ -1,0 +1,11 @@
+iframe{
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 675px;
+    border: none;
+}
+
+div{
+    text-align: center;
+}

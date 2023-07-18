@@ -1,0 +1,14 @@
+@font-face {
+    font-family: vcr;
+    src: url(../../assets/vcr.ttf);
+  }
+
+
+.center{
+    padding: 2.5%;
+    width:1250px;
+    text-align: center;
+}
+h2{
+    font-family: 'vcr';
+}

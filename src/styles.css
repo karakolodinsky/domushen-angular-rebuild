@@ -1,0 +1,38 @@
+@font-face {
+    font-family: vcr;
+    src: url(assets/vcr.ttf);
+  }
+
+@font-face {
+    font-family: jgs9;
+    src: url(assets/jgs9.ttf);
+}
+ body {
+    font-family: 'jgs9';
+    margin: 1%;
+    background: #a7a3b5;
+    color: #101012;
+    font-size: xx-large;
+ }
+ .center{
+  padding: 2.5%;
+  width:1250px;
+  text-align: center;
+}
+h2{
+  font-family: 'vcr';
+}
+
+a span{
+  opacity: 0;
+}
+
+a:hover span{
+  opacity: 1;
+  color: #101012;
+}
+
+a{
+	color: #101012;
+	text-decoration: none;
+}

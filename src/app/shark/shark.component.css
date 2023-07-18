@@ -1,0 +1,15 @@
+img{
+    width: 400px;
+    padding: 20px;
+    
+}
+.objects{
+    display:flex; 
+    flex-direction: row;
+    margin: auto;
+}
+
+#finals{
+    width: 450px;
+
+}

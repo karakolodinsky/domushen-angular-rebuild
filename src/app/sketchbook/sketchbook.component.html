@@ -1,0 +1,29 @@
+<h2>typescript sketchbook viewer</h2>
+<p style="text-align: center;">{{index+1}} / {{currentImgs.length}}</p>
+<div class="cont">
+<div class="margin">
+    <button (click)="back()" class="arrow"><</button>
+  </div>
+  <div>
+    <img #page class="image" [src]="currentImgs[index]" />
+  </div>
+  <div class="margin">
+    <button (click)="forward()" class="arrow">></button>
+  </div> 
+</div>
+
+<div style="margin-left: 25%; display: block;">
+  <button (click)="switch1()">1-11</button>
+  <button (click)="switch2()">12-23</button>
+  <button (click)="switch3()">24-37</button>
+  <button (click)="switch4()">38-51</button>
+  <button (click)="switch5()">52-79</button>
+  <button (click)="switch6()">80-93</button>
+  <button (click)="switch7()">94-107</button>
+</div>
+<p style="text-align: center;">this sketchbook was maintained by me from 10/28/21 to 6/3/23. <br>
+give it some time to load pages! my host is very slow at loading images <br>
+this was originally coded in javascript, but i figured it'd be a good idea to convert it to typescript as i built my website with angular.
+hopefully this gives you some better insight into my brain... <br>
+</p>
+

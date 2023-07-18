@@ -1,0 +1,24 @@
+
+
+.toolbar{
+    width: 100%; 
+    height: 25%;
+    display: flex;
+}
+
+.domu{
+
+    z-index: 3;
+    float:left;
+}
+
+.marq {
+    float:left;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-bottom: 3px dashed #101012;
+}
+#domuBG{
+    z-index: 2px;
+    background-size: 100% 100%;
+}
