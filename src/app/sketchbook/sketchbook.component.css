@@ -1,49 +1,54 @@
-
-.objects{
-    display:flex; 
-    margin: auto;
+.objects {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  padding: 2.5%;
 }
 
-.image{
-    width: 1000px;
-    margin-left: 1%;
+.image {
+  width: 100%; /* Use 100% width to make it responsive */
+  max-width: 1000px; /* Set a maximum width for larger screens */
+  margin: 1%; /* Use percentage-based margin for responsiveness */
 }
 
-.sktch{
-    width: 500px;
+.sktch {
+  width: 100%; /* Use 100% width to make it responsive */
+  max-width: 500px; /* Set a maximum width for larger screens */
 }
 
 .cont {
-    display: flex;
-    align-items: center;
-    margin-left: 10%;
-  }
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Use a fixed margin value or adjust as needed */
+}
 
+.margin {
+  margin: 2.5%;
+}
 
-  .margin{
-    margin: 2.5%;
-  }
-  
-  .image-container {
-    flex-grow: 1;
-  }
+.image-container {
+  flex-grow: 1;
+}
 
-  button{
-    font-family: vcr;
-    padding: 2.5%;
-    margin: .20%;
-    background-color: #a7a3b5;
-    border: solid black;
-    border-radius: 5px;
-  }
-  button:hover{ 
-    box-shadow: -2px 2px 2px 2px black;
-  }
-  button:active{
-    background-color: #c49edd;
-  }
+button {
+  font-family: vcr;
+  padding: 2.5%;
+  margin: 0.2%;
+  background-color: #a7a3b5;
+  border: solid black;
+  border-radius: 5px;
+}
 
-  .arrow{
-    padding: 50%;
-    font-size: 30px;
-  }
+button:hover {
+  box-shadow: -2px 2px 2px 2px black;
+}
+
+button:active {
+  background-color: #c49edd;
+}
+
+.arrow {
+  font-size: 3vh; /* Use a responsive unit (viewport height) for font size */
+  padding: 1vh; /* Use a responsive unit (viewport height) for padding */
+}

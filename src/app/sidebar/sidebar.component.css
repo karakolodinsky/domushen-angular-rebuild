@@ -1,9 +1,8 @@
-.sidebar{
-    display: flexbox;
+.sidebar {
     height: 100%;
     border-right: dashed 3px;
     overflow: hidden;
     margin-top: 1%;
-    padding-right: 30px;
-    font-size: 125px;
+    padding-right: 2%; /* Use percentage-based padding for responsiveness */
+    font-size: 4em; /* Adjust the font size as needed */
 }

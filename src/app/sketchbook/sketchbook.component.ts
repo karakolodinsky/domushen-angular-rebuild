@@ -16,8 +16,6 @@ export class SketchbookComponent {
     "../assets/sketchbook/s-06.png",
     "../assets/sketchbook/s-07.png",
     "../assets/sketchbook/s-08.png",
-  ];
-  imgs2: string[] = [
     "../assets/sketchbook/s-09.png",
     "../assets/sketchbook/s-10.png",
     "../assets/sketchbook/s-11.png",
@@ -29,8 +27,6 @@ export class SketchbookComponent {
     "../assets/sketchbook/s-17.png",
     "../assets/sketchbook/s-18.png",
     "../assets/sketchbook/s-19.png",
-  ];
-  imgs3: string[] =[
     "../assets/sketchbook/s-20.png",
     "../assets/sketchbook/s-21.png",
     "../assets/sketchbook/s-22.png",
@@ -42,8 +38,6 @@ export class SketchbookComponent {
     "../assets/sketchbook/s-28.png",
     "../assets/sketchbook/s-29.png",
     "../assets/sketchbook/s-30.png",
-  ]
-  imgs4: string[] =[
     "../assets/sketchbook/s-31.png",
     "../assets/sketchbook/s-32.png",
     "../assets/sketchbook/s-33.png",
@@ -55,8 +49,6 @@ export class SketchbookComponent {
     "../assets/sketchbook/s-41.png",
     "../assets/sketchbook/s-42.png",
     "../assets/sketchbook/s-43.png",
-  ]
-  imgs5: string[] =[
     "../assets/sketchbook/s-44.png",
     "../assets/sketchbook/s-45.png",
     "../assets/sketchbook/s-46.png",
@@ -68,8 +60,6 @@ export class SketchbookComponent {
     "../assets/sketchbook/s-52.png",
     "../assets/sketchbook/s-53.png",
     "../assets/sketchbook/s-54.png",
-  ]
-  imgs6: string[] =[
     "../assets/sketchbook/s-55.png",
     "../assets/sketchbook/s-56.png",
     "../assets/sketchbook/s-57.png",
@@ -82,8 +72,6 @@ export class SketchbookComponent {
     "../assets/sketchbook/s-64.png",
     "../assets/sketchbook/s-65.png",
     "../assets/sketchbook/s-66.png",
-  ]
-  imgs7: string[] =[
     "../assets/sketchbook/s-67.png",
     "../assets/sketchbook/s-68.png",
     "../assets/sketchbook/s-69.png",
@@ -137,44 +125,30 @@ export class SketchbookComponent {
   }
   switch2(): void {
 
-    this.imgsIndex = 1;
+    this.imgsIndex = 21;
     this.index = 0; // Reset the index when switching images
-    this.currentImgs = this.imgs2
+    this.currentImgs = this.imgs1
     this.display();
   }
   switch3(): void {
 
-    this.imgsIndex = 2;
+    this.imgsIndex = 41;
     this.index = 0; // Reset the index when switching images
-    this.currentImgs = this.imgs3
+    this.currentImgs = this.imgs1
     this.display();
   }
   switch4(): void {
 
-    this.imgsIndex = 3;
+    this.imgsIndex = 61;
     this.index = 0; // Reset the index when switching images
-    this.currentImgs = this.imgs4
+    this.currentImgs = this.imgs1
     this.display();;
   }
   switch5(): void {
 
-    this.imgsIndex = 4;
+    this.imgsIndex = 81;
     this.index = 0; // Reset the index when switching images
-    this.currentImgs = this.imgs5
-    this.display();
-  }
-  switch6(): void {
-
-    this.imgsIndex = 5;
-    this.index = 0; // Reset the index when switching images
-    this.currentImgs = this.imgs6
-    this.display();
-  }
-  switch7(): void {
-
-    this.imgsIndex = 6;
-    this.index = 0; // Reset the index when switching images
-    this.currentImgs = this.imgs7
+    this.currentImgs = this.imgs1
     this.display();
   }
 }
