@@ -16,6 +16,8 @@ import { DressComponent } from './dress/dress.component';
 import { LampComponent } from './lamp/lamp.component';
 import { SharkComponent } from './shark/shark.component';
 import { MantisComponent } from './mantis/mantis.component';
+import { TopbarComponent } from './topbar/topbar.component';
+import { UpdatesComponent } from './updates/updates.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { MantisComponent } from './mantis/mantis.component';
     DressComponent,
     LampComponent,
     SharkComponent,
-    MantisComponent
+    MantisComponent,
+    TopbarComponent,
+    UpdatesComponent
   ],
   imports: [
     BrowserModule,

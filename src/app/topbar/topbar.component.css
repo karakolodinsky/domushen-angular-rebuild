@@ -1,0 +1,12 @@
+.sidebar {
+    display:none;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; 
+        display: flex;
+        border-bottom: dashed 3px; /* Add a bottom border */
+        font-size: 6vh; /* Adjust the font size as needed */
+    }
+ }

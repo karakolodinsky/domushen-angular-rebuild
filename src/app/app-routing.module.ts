@@ -10,6 +10,7 @@ import { SketchbookComponent } from './sketchbook/sketchbook.component';
 import { ScreenprintingComponent } from './screenprinting/screenprinting.component';
 import { MantisComponent } from './mantis/mantis.component';
 import { SharkComponent } from './shark/shark.component';
+import { UpdatesComponent } from './updates/updates.component';
 
 const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'main', component: MainComponent },
   { path: 'dress', component: DressComponent },
   { path: 'lamp', component: LampComponent },
+  { path: 'updates', component: UpdatesComponent },
   { path: 'mantis', component: MantisComponent },
   { path: 'shark', component: SharkComponent },
   { path: 'sketchbook', component: SketchbookComponent },

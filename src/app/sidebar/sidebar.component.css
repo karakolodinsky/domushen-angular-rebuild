@@ -6,3 +6,9 @@
     padding-right: 2%; /* Use percentage-based padding for responsiveness */
     font-size: 4em; /* Adjust the font size as needed */
 }
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none 
+    }
+ }

@@ -12,3 +12,10 @@ img {
     margin: auto;
     flex-wrap: wrap ;
 }
+
+
+@media (max-width: 768px) {
+    .objects {
+        width: 50%
+    }
+}
