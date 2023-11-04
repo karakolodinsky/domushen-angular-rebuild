@@ -1,0 +1,43 @@
+@font-face {
+    font-family: vcr;
+    src: url(../../assets/vcr.ttf);
+  }
+
+
+h2{
+    font-family: 'vcr';
+    margin-left: 30%;
+}
+
+
+.chill{
+    width: 17.5vw;
+    height: 20vh;
+}
+
+.chill:hover{
+    cursor: pointer;
+}
+
+
+.silyl{
+    margin-left: 15%;
+    
+}
+
+
+@media (max-width: 768px) {
+    
+.chill{
+    width: 40vw;
+    height: 17.5vh;
+}
+h2{
+    margin-left: 6%;
+}
+
+.silyl{
+    margin-left: 0;
+    
+}
+  }

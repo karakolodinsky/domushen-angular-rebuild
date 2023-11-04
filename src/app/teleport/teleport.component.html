@@ -1,0 +1,10 @@
+<div> <br>
+    <h2> choose a path </h2>
+    <div class="silyl">
+    <tr *ngFor="let row of [1, 2, 3]" >
+        <td *ngFor="let col of [1, 2, 3]" [style.backgroundColor]="getRandomColor()" class="chill" (click)="redirectToRandomLink()">
+
+    </td>
+    </tr>
+    </div>
+</div>

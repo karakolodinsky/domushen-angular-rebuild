@@ -1,7 +1,7 @@
 img {
     max-width: 100%; /* Set the maximum width to 100% of the parent container */
     width: 250px; /* Set a fixed width for all images */
-    height: auto; /* Allow the height to adjust proportionally based on the aspect ratio */
+    height: 250px;
     padding: 20px; /* Optional: Add padding if needed */
     box-sizing: border-box; /* Include padding in the specified width */
 }
@@ -12,3 +12,17 @@ img {
     margin: auto;
     flex-wrap: wrap ;
 }
+
+.beans{
+    margin-left: 60%;
+}
+
+@media (max-width: 768px) {
+    .objects {
+        width: 75%
+    }
+    .beans{
+        margin-left: 30%;
+    }
+}
+

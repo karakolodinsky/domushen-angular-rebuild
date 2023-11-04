@@ -1,7 +1,7 @@
 img {
     max-width: 100%; /* Set the maximum width to 100% of the parent container */
     width: 250px; /* Set a fixed width for all images */
-    height: auto; /* Allow the height to adjust proportionally based on the aspect ratio */
+    height: 250px; /* Allow the height to adjust proportionally based on the aspect ratio */
     padding: 20px; /* Optional: Add padding if needed */
     box-sizing: border-box; /* Include padding in the specified width */
 }

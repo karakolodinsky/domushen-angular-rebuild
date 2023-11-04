@@ -4,12 +4,17 @@
 
 @media (max-width: 768px) {
     .sidebar {
-        width: 100%; 
+        width: 100%;
         display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
         border-bottom: dashed 3px; /* Add a bottom border */
         font-size: 6vh; /* Adjust the font size as needed */
         margin-top: 5%;
         padding-bottom: 5%;
-        margin-bottom:0;
+        margin-bottom: 0;
+        text-align: center;
     }
+
+    a{padding: 1%;}
  }

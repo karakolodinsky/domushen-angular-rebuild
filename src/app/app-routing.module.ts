@@ -11,6 +11,8 @@ import { ScreenprintingComponent } from './screenprinting/screenprinting.compone
 import { MantisComponent } from './mantis/mantis.component';
 import { SharkComponent } from './shark/shark.component';
 import { UpdatesComponent } from './updates/updates.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { TeleportComponent } from './teleport/teleport.component';
 
 const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path: 'shark', component: SharkComponent },
   { path: 'sketchbook', component: SketchbookComponent },
   { path: 'screenprinting', component: ScreenprintingComponent },
+  { path: 'recipes', component: RecipesComponent },
+  { path: 'teleport', component: TeleportComponent },
   { path: '**', component: MainComponent },
   { path: '',   redirectTo: '/main', pathMatch: 'full' }, // redirect to `first-component`
 ];

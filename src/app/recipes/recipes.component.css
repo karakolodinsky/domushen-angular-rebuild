@@ -1,0 +1,70 @@
+@font-face {
+    font-family: vcr;
+    src: url(../../assets/vcr.ttf);
+  }
+
+
+.center{
+    padding: 2.5%;
+    text-align: center;
+}
+h2{
+    font-family: 'vcr';
+}
+
+  button {
+    font-family: vcr;
+    margin: 1%;
+    background-color: #a7a3b5;
+    border: solid black;
+    border-radius: 5px;
+    float:left;
+    font-size: 1em;
+    height: 2em;
+    width: 2em;
+  }
+  
+  button:hover {
+    box-shadow: -2px 2px 2px 2px black;
+  }
+  
+  button:active {
+    background-color: #c49edd;
+  }
+
+  .flexin{
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  img {
+    max-width: 100%; /* Set the maximum width to 100% of the parent container */
+    width: 250px; /* Set a fixed width for all images */
+    height: auto; /* Allow the height to adjust proportionally based on the aspect ratio */
+
+    box-sizing: border-box; /* Include padding in the specified width */
+}
+
+.objects{
+    display:flex; 
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap ;
+}
+
+.recipe {
+    width: 60vw;
+    word-wrap: break-word; /* Text will wrap when it overflows the container */
+}
+
+.disp {
+    text-align: left;
+    
+}
+
+@media (max-width: 768px) {
+    .recipe{
+    width: 90vw;
+
+    }
+}

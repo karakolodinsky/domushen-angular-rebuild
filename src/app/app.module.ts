@@ -18,6 +18,8 @@ import { SharkComponent } from './shark/shark.component';
 import { MantisComponent } from './mantis/mantis.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { UpdatesComponent } from './updates/updates.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { TeleportComponent } from './teleport/teleport.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { UpdatesComponent } from './updates/updates.component';
     SharkComponent,
     MantisComponent,
     TopbarComponent,
-    UpdatesComponent
+    UpdatesComponent,
+    RecipesComponent,
+    TeleportComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,36 @@
+<div class ="center">
+    
+    <div class="flexin" *ngIf="isMenuVisible">
+        <h2>Recipes</h2>
+        <div style="flex-direction: row;"  class="objects">
+    <li *ngFor="let rec of recipe"  style="list-style-type: none;list-style-position:inside;margin:0; padding:0;  ">
+        <div (click)="onSelect(rec)" >
+          <img src="{{rec.icon}}"> <br>
+          <figcaption>{{rec.name}}</figcaption>
+        </div>
+      </li>
+        </div>
+    </div>
+      <div *ngIf="selectedrec && isRecipeVisible" class = " recipe">
+        <button  (click)="isMenuVisible = true; isRecipeVisible = !isRecipeVisible" >  <  </button>
+        
+        <div style="flex-direction: column;">
+        <h2>{{selectedrec.name}}</h2>
+        <div>
+            <img src="{{selectedrec.pic}}"> <br>
+          <h3>ingredients:</h3>
+          <ul  class="disp">
+          <li *ngFor="let ing of selectedrec.ingredients" >
+            <label>{{ing}}</label>
+        </li>
+    </ul>
+        </div>
+          <h3>steps:</h3>
+          <ol>
+          <li *ngFor="let step of selectedrec.directions" style="list-style-position:inside;margin:0; padding:0; ">
+            <label>{{step}}</label>
+        </li>
+    </ol>
+        </div>
+    </div>
+</div>

@@ -35,3 +35,7 @@ a{
 	color: #101012;
 	text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  body{margin: 0;}
+}
