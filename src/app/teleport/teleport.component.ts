@@ -35,13 +35,16 @@ export class TeleportComponent {
       'https://addpmp.slamjam.com/',
       'https://radiooooo.com/',
       'https://aggie.io/',
-      'https://domushen.neocities.org/'
+      'https://domushen.neocities.org/',
+      'https://kuudzu.neocities.org/',
+      'https://errorsorry355558949.wordpress.com/'
     ];
 
     // Select a random link from the array
     const randomIndex = Math.floor(Math.random() * links.length);
     return links[randomIndex];
   }
+
 
   redirectToRandomLink(): void {
     const randomLink = this.Link();

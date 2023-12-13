@@ -2,7 +2,7 @@
     <h2> choose a path </h2>
     <div class="silyl">
     <tr *ngFor="let row of [1, 2, 3]" >
-        <td *ngFor="let col of [1, 2, 3]" [style.backgroundColor]="getRandomColor()" class="chill" (click)="redirectToRandomLink()">
+        <td *ngFor="let col of [1, 2, 3]" [style.backgroundColor]="getRandomColor()" class="chill" (click)="redirectToRandomLink()" title="click me & wake up from your dream!">
 
     </td>
     </tr>
